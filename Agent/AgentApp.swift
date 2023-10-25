@@ -13,7 +13,7 @@ struct AgentApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartScreenView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
